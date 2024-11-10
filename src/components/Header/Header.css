@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--main-text-color);
+    text-align: left;
+    margin: 0 0 60px;
+}

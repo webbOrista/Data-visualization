@@ -1,0 +1,11 @@
+.arrows {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.vertical {
+  transition: y2 0.3s ease-in-out;
+}

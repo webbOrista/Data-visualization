@@ -1,0 +1,16 @@
+:root {
+  --main-text-color: #898290;
+  --accent-text-color: #FFFFFF;
+  --front-color:#4AB6E8;
+  --back-color:#AA6FAC;
+  --db-color:#E85498;
+  --decrease-color: #FC440F;
+  --increase-color: #00CC99;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,44 @@
+.column {
+  width: 80px;
+  text-align: center;
+  z-index: 2;
+}
+
+.segment {
+  color: var(--accent-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  transition: height 0.8s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.frontSegment {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: var(--front-color);
+}
+
+.backSegment {
+  background-color: var(--back-color);
+}
+
+.dbSegment {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: var(--db-color);
+}
+
+.inscription {
+  margin-top: 15px;
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.fadeOut {
+  opacity: 0;
+}

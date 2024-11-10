@@ -1,0 +1,40 @@
+.normColumn {
+  width: 80px;
+  text-align: center;
+}
+
+.normColumnBody {
+  border-radius: 10px;
+  color: var(--main-text-color);
+  background-color: var(--accent-text-color);
+  background-image: url("../../assets/lineBackground.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.textChip {
+  border-radius: 5px;
+  padding: 4px 11px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: var(--accent-text-color);
+}
+
+.inscription {
+  margin-top: 15px;
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.fadeOut {
+  opacity: 0;
+}
